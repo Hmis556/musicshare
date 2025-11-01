@@ -35,5 +35,40 @@
 - 启用以下PHP扩展：mysqli, gd, fileinfo
 
 ### 安装步骤
+个人失误导致上传文件路径不对，请您手动归位。项目树为
+music_share_site/
+├── admin/
+│   ├── admin_header.php
+│   ├── comments_manage.php
+│   ├── dashboard.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── music_manage.php
+│   ├── settings.php
+│   └── share.php
+├── api/
+│   ├── add_comment.php
+│   ├── add_music.php
+│   ├── delete_music.php
+│   ├── generate_short_link.php
+│   ├── get_random_music.php
+│   └── get_stats.php
+├── static/
+│   ├── css/
+│   │   ├── admin.css
+│   │   └── style.css
+│   ├── js/
+│   │   ├── admin.js
+│   │   └── main.js
+│   └── uploads/
+│       ├── images/
+│       └── music/
+├── config.php
+├── index.php
+├── install.php
+├── random.php
+├── s.php
+├── share.php
+└── share_interstitial.php
 
 1. **下载代码**
